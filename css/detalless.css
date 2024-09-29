@@ -1,0 +1,102 @@
+/* General Styles */
+
+a.volver-inicio {
+    display: inline-block;
+    background-color: #4106cc; /* Gris oscuro para el botón */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+a.volver-inicio:hover {
+    background-color: #555; /* Gris más oscuro al pasar el cursor */
+}
+
+/* Estilos adicionales para el contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #555; /* Gris oscuro para subtítulos */
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.imagen-noticia {
+    width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados para una apariencia más elegante */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #333; /* Gris oscuro para los botones */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555; /* Gris más oscuro al pasar el cursor */
+}
+
+#lista-comentarios {
+    margin-top: 20px;
+}
+
+.comentario {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.comentario p {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.comentario small {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
